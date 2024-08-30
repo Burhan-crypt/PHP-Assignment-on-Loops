@@ -1,7 +1,11 @@
 <?php
 //For Loops in PHP
-    echo "This is For Loop in Action for Even Numbers <br>";
-    for ($for=2; $for <=20; $for+=2) { 
-        echo "The Value of for is $for <br>";
+echo "Checking if Numbers are Even or Odd <br>";
+for ($num = 1; $num <= 20; $num++) { 
+    if ($num % 2 === 0) {
+        echo "The number $num is Even <br>";
+    } else {
+        echo "The number $num is Odd <br>";
     }
+}
 ?>
